@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ayar.happybirthday.HappyBirthday">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/attaque77"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:padding="16dp"
+        android:textColor="#610b8f"
+        android:fontFamily="sans-serif-medium"
+
+        android:shadowColor="#c1fce4fa"
+        android:shadowDx="10.0"
+        android:shadowDy="10.0"
+        android:shadowRadius="3.0"
+
+        android:textStyle="bold"
+        android:text="Feliz cumple!!"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="36sp"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:textColor="#d6c8e7"
+        android:shadowColor="#a7939292"
+        android:shadowDx="10.0"
+        android:shadowDy="10.0"
+        android:shadowRadius="3.0"
+        android:fontFamily="sans-serif-medium"
+        android:text="Atte: Ayar!"/>
+
+</RelativeLayout>
